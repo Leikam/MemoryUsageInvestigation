@@ -1,18 +1,8 @@
-package module_15_new;
-
 import java.util.LinkedList;
 import java.util.List;
 
 public class STWExample {
 
-/*
--Xmx490m
--Xmn400m
--XX:SurvivorRatio=1
--XX:+UseParallelGC
--verbose:gc
--Xlog:gc=info,safepoint=info
- */
 
     public static void main(String[] args) {
         // поток, временно выделяющий и освобождающий ~100 Mb памяти
